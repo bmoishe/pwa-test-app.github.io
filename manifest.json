@@ -1,0 +1,29 @@
+{
+  "short_name": "My App",
+  "name": "My app",
+  "apple-mobile-web-app-title": "My App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+    // global theme color for site
+  "theme_color": "#000000",
+  "background_color": "#bd0000",
+  "orientation": "any",
+  "display": "standalone",
+  "lang": "en-GB",
+  "description": "this is a description",
+  // What urls are in scope of the app
+  "scope": "/",
+  "related_applications": [{
+    "platform": "play",
+    "url:": "/",
+    "id": ""
+  }],
+  "prefer_related_applications": true
+}
